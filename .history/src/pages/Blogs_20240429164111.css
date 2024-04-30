@@ -1,0 +1,54 @@
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: center;
+    /* Center the items */
+    font-family: 'Press Start 2P', cursive;
+    /* Hacker font */
+}
+
+.item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item:nth-child(even) {
+    background-color: #ccc;
+    /* Darker grey */
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.item p {
+    margin: 10px 0;
+    color: green;
+    /* Green text */
+}
+
+.description-panel {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.cost-panel {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.contact-panel {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}

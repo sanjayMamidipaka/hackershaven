@@ -1,0 +1,64 @@
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item:nth-child(even) {
+    background-color: #7a7474;
+    /* Darker grey */
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: rgb(84, 122, 141);
+}
+
+.item:nth-child(even) h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: rgb(221, 230, 122);
+}
+
+.item p {
+    margin: 10px 0;
+    color: rgb(51, 210, 69);
+}
+
+.description-panel {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.cost-panel {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.contact-panel {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.head2 {
+    padding: 20px;
+        color: #01bf71;
+        /* Set text color to green */
+        background-color: #1c1c1c;
+        /* Dark background color */
+}

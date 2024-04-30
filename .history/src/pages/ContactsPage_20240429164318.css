@@ -1,0 +1,70 @@
+.contacts-container {
+    padding: 20px;
+    color: #01bf71;
+    /* Set text color to green */
+    background-color: #1c1c1c;
+    /* Dark background color */
+    text-align: center;
+        /* Center the title */
+        font-family: 'Press Start 2P', cursive;
+        /* Hacker font */
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    /* Display three cards per row */
+    gap: 20px;
+}
+
+.card {
+    background-color: #1f1f1f;
+    /* Slightly lighter background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.card-info h2 {
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    color: #aaa;
+    /* Lighter text color */
+}
+
+.priority {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.priority.high {
+    background-color: #ff5f5f;
+    color: #fff;
+}
+
+.priority.medium {
+    background-color: #f5d469;
+    color: #1f1f1f;
+    /* Dark text color */
+}
+
+.priority.low {
+    background-color: #70c0ff;
+    color: #1f1f1f;
+    /* Dark text color */
+}

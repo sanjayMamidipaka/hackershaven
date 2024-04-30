@@ -1,0 +1,34 @@
+/* Home.css */
+
+.welcome-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    cen
+}
+
+.section-title {
+    font-size: 1.5rem;
+}
+
+.green {
+    color: green;
+}
+
+.white {
+    color: white;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-content {
+    margin-top: 10px;
+    color: white;
+}
+
+/* Increase font size by 25% */
+.section p {
+    font-size: 1.25em;
+}

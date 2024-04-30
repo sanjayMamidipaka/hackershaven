@@ -1,0 +1,72 @@
+.login-container {
+    background-color: #111;
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* Center everything */
+    animation: fadeOut 0.5s ease forwards;
+    /* Apply animation */
+}
+
+.login-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    /* Arrange items vertically */
+    align-items: center;
+    /* Center items horizontally */
+}
+
+.input-field {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #444;
+    color: #fff;
+}
+
+.input-field::placeholder {
+    color: #aaa;
+}
+
+.validate-button {
+    width: 80%;
+    padding: 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.validate-button:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: #ff1744;
+    margin-top: 20px;
+}
+
+/* Define animation */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
