@@ -30,7 +30,7 @@ function App() {
 
   
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         {authenticated ? (
           <Route path="/" element={<Layout />}>
@@ -45,7 +45,7 @@ function App() {
           />
         )}
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 
 }
