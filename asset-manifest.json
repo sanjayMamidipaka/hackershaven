@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hackershaven/static/css/main.2b3cfd1b.css",
+    "main.js": "/hackershaven/static/js/main.9c242aef.js",
+    "static/media/datavortx.png": "/hackershaven/static/media/datavortx.c85c7f4c9184730d1607.png",
+    "static/media/donjulio.png": "/hackershaven/static/media/donjulio.8afc0b3d68f64d90f20f.png",
+    "static/media/omega.png": "/hackershaven/static/media/omega.a2108c372974fea2c43c.png",
+    "static/media/apex.png": "/hackershaven/static/media/apex.ad769aec05905e8d9ba7.png",
+    "static/media/zeiss.png": "/hackershaven/static/media/zeiss.f341216c9d3cd6cd49ae.png",
+    "static/media/eyes.png": "/hackershaven/static/media/eyes.c350a90406bc61a8e827.png",
+    "static/media/oasis.png": "/hackershaven/static/media/oasis.03d50cb0f64eecadb228.png",
+    "static/media/skin.png": "/hackershaven/static/media/skin.ef37b0a66ee0e7b2a9f4.png",
+    "static/media/arm.png": "/hackershaven/static/media/arm.eb2ea7c93821a7d0ff84.png",
+    "static/media/chrome.png": "/hackershaven/static/media/chrome.5f9e19d40d06792d4d4e.png",
+    "index.html": "/hackershaven/index.html",
+    "main.2b3cfd1b.css.map": "/hackershaven/static/css/main.2b3cfd1b.css.map",
+    "main.9c242aef.js.map": "/hackershaven/static/js/main.9c242aef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b3cfd1b.css",
+    "static/js/main.9c242aef.js"
+  ]
+}
